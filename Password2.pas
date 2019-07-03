@@ -2,19 +2,20 @@ program Password2;
 
 var
 
-   p:string;
-   d:ansistring;
+   str:string;
+   str2:string;
 
 begin
 
-      p:='12345';
-      d:='Password';
+      str:='Password';
+      str2:='One Two Three Four Five Six';
 
-      if p+d ='!234 Password' then
 
-      writeln('Password correct');
+   writeln('Password correct');
 
       readln;
+
+
 
 
 
