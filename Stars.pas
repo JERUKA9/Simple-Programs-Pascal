@@ -3,20 +3,15 @@ program Stars;
 
 var
 
-i:integer;
+i,n:integer;
 
-begin
+begin i:= 1*n;
 
-    i:=1*1;
+    i:=2;
+    n:=2;
+    n:=2*i;
 
-
-
-
-    if  i <>  0
-
-    then
-
-    write('*');
+    write(i+n,'=','*');
 
     readln;
 
