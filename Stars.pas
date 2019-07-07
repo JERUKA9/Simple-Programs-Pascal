@@ -5,13 +5,13 @@ var
 
 i,n:integer;
 
-begin i:= 1*n;
+begin
 
     i:=2;
     n:=2;
-    n:=2*i;
+    n:=2*i*n;
 
-    write(i+n,'=','*');
+    write(i*n,'*');
 
     readln;
 
