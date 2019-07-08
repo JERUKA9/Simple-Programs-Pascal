@@ -3,18 +3,19 @@ program Stars3;
 
 var
 
-i,j,n1,n2:integer;
+i,j,n1,n2:integer;//Fixed by jozekkg//
+
 
 
 begin
 
-n1:=1;
-n2:=3;
-for i:=1 to n2 do
-for j:=1 to n1 do
+n1:=1;//Ascribed value//
+n2:=3;//Ascribed value//
+for i:=1 to n2 do//First for loop//
+for j:=1 to n1 do//Second for loop//
 begin
-writeln('*');
-n1:=n1+2;
+writeln('*');//Showing stars//
+n1:=n1+2;//Concat//
 
 read;
 
