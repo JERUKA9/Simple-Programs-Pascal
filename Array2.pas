@@ -12,11 +12,13 @@ begin
 
   for i:=1 to Length (Numbers)  do
 
-      for j:=1 to Length (Numbers)  do
+      for j:=1 to Length (Numbers2)  do
 
-          for k:=1 to Length (Numbers)  do
+          for k:=1 to Length (Numbers3)  do
 
-              for l:=1 to Length (Numbers)  do
+              for l:=1 to Length (Numbers4)  do
+
+
 
 
       Numbers[i] :=1;
