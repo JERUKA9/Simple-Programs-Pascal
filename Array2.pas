@@ -9,6 +9,11 @@ var
 
 
 begin
+             i:=0;
+             j:=0;
+             k:=0;
+             l:=0;
+
 
   for i:=1 to Length (Numbers)  do
 
@@ -21,13 +26,18 @@ begin
 
 
 
-      Numbers[i] :=1;
+        writeln(i+j+k+l);
 
-  Readln(Numbers[i]);
+   writeln(i-j-k-l);
+
+    writeln(i*j*k*l);
+
+    writeln(i/j/k/l);
 
 
 
-  readln;
+
+  readln(i,j,k,l);
 
 
 
