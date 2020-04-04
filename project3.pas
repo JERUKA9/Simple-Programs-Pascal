@@ -1,24 +1,18 @@
 program project3;
 
+var
 
-function Add_numbers(a,b:integer):integer;
-
-
+  result:Boolean;
 
 
 begin
 
-a:=3;
-b:=3;
+  result := true;
+
+  writeln(result);
+
+  readln;
 
 
-Add_numbers:=a+b;  //project to fix //
-
-
-
-
-
-end;
-
-
+end.
 
