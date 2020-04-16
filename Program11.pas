@@ -11,10 +11,17 @@ begin
 
    writelen('Show  data');
 
-
-  case Month of  Days+Year; // to fix//
-
+   
 readln(Month);
+ 
+
+  case Month of  Days and Year
+
+    writeln('enter data');
+
+    readln(Month);
+
+    
  
 
 end.
