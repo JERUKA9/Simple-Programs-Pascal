@@ -1,12 +1,25 @@
+Program program_10;
+
 var
 
-a,b,c,x,y,r,s:real;
+temperature:integer;
 
+temperature_state:boolean;
 
 
 begin
+   
+writeln('Temperature is');
 
-   writeln(a*x*x+b*x+c=a*x-r*x-s);
+readln(temperature_state);
+
+
+if temperature_state(75>=hot) and (50-74= cool) and (35-49=cold) and (35<= freezing); //to fix//
+
 
 end.
+
+
+
+
 
