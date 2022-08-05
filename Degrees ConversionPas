@@ -1,0 +1,18 @@
+program degrees1;
+var
+  degrees:double;
+  celsius:double;
+  fahrenheit:double;
+
+begin
+     readln(degrees);
+     celsius:=degrees-32*5/9;
+     fahrenheit:=degrees*1.8+32;
+     writeln('Temperature is in celsius',celsius:2:2);
+     writeln('Temperature is in fahrenheit',fahrenheit:2:2);
+     readln;
+
+
+
+
+end.
